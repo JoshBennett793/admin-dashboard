@@ -1,0 +1,21 @@
+.body-container {
+	border: 3px solid red;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.header {
+	border: 3px solid orange;
+	grid-column: 2;
+}
+
+.sidebar {
+	border: 3px solid green;
+	grid-row: 1 / span 2;
+}
+
+.main-content {
+	border: 3px solid blue;
+	grid-column: 2;
+}
