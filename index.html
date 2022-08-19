@@ -9,46 +9,83 @@
   </head>
   <body>
     <div class="body-container">
-			
       <div class="header">
-        <input type="text" id="search-bar" />
-        <svg class="alert-icon"></svg>
-        <img src="" alt="" class="profile-pic" />
-        <p class="username">Username</p>
+        <div class="header-row1">
+          <img src="icons/search.svg" alt="" class="search-icon" />
+          <input type="text" id="search-bar" />
+          <img
+            src="icons/alerts.svg"
+            alt="alert-icon"
+            class="alert-icon"
+          />
+          <img
+            src="icons/david.svg"
+            alt="David"
+            class="profile-pic"
+          />
+          <p class="username">David</p>
+        </div>
+
+        <div class="header-row2">
+          <div class="header-row2-left">
+						<img
+							src="icons/david.svg"
+							alt="David"
+							class="profile-pic-large"
+						/>
+						<p class="greeting">Hi there,<br />David (@<i>NotMichelangelo</i>)</p>
+					</div>
+          <div class="buttons">
+						<button>New</button>
+						<button>Upload</button>
+						<button>Share</button>
+					</div>
+        </div>
       </div>
 
       <div class="sidebar">
-        <div class="dashboard">
-          <svg style="width: 48px; height: 48px" viewBox="0 0 24 24">
-            <path
-              fill="currentColor"
-              d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
-            />
-          </svg>
+        <div class="sidebar-top">
+          <img
+            src="icons/dashboard.svg"
+            alt="Dashboard Icon"
+            class="dashboard-icon icon"
+          />
           <p>Dashboard</p>
         </div>
 
         <div class="nav">
-          <p>Home</p>
-          <p>Profile</p>
-          <p>Messages</p>
-          <p>History</p>
-          <p>Tasks</p>
-          <p>Communities</p>
+          <ul>
+						<img src="icons/home.svg" alt="Home" class="icon">
+            <li><a href="">Home</a></li>
+						<img src="icons/profile.svg" alt="Profile" class="icon">
+            <li><a href="">Profile</a></li>
+						<img src="icons/messages.svg" alt="Messages" class="icon">
+            <li><a href="">Messages</a></li>
+						<img src="icons/history.svg" alt="History" class="icon">
+            <li><a href="">History</a></li>
+						<img src="icons/tasks.svg" alt="Tasks" class="icon">
+            <li><a href="">Tasks</a></li>
+						<img src="icons/communities.svg" alt="Communities" class="icon">
+            <li><a href="">Communities</a></li>
+          </ul>
         </div>
 
         <div class="branding">
-          <p>Settings</p>
-          <p>Support</p>
-          <p>Privacy</p>
+          <ul>
+						<img src="icons/settings.svg" alt="Settings" class="icon">
+            <li><a href="">Settings</a></li>
+						<img src="icons/support.svg" alt="Support" class="icon">
+            <li><a href="">Support</a></li>
+						<img src="icons/privacy.svg" alt="Privacy" class="icon">
+            <li><a href="">Privacy</a></li>
+          </ul>
         </div>
       </div>
 
       <div class="main-content">
         <div class="projects">
-					
           <div class="card">
-            <h3>Project Title</h3>
+            <h3>Super Cool Project</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
               consequatur autem eum enim numquam fuga? Dolor eaque sint minus
@@ -58,7 +95,7 @@
           </div>
 
           <div class="card">
-            <h3>Project Title</h3>
+            <h3>Less Cool Project</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium blanditiis corrupti nihil repellendus! Fugit eum,
@@ -68,7 +105,7 @@
           </div>
 
           <div class="card">
-            <h3>Project Title</h3>
+            <h3>Impossible App</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Doloremque assumenda quae quam, minus at ipsum repellendus porro
@@ -78,7 +115,7 @@
           </div>
 
           <div class="card">
-            <h3>Project Title</h3>
+            <h3>Easy Peasy App</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
               nostrum delectus molestiae eveniet deserunt deleniti neque facere
@@ -88,7 +125,7 @@
           </div>
 
           <div class="card">
-            <h3>Project Title</h3>
+            <h3>Ad Blocker</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               laboriosam quia est adipisci sequi impedit veniam. Tenetur autem,
@@ -98,7 +135,7 @@
           </div>
 
           <div class="card">
-            <h3>Project Title</h3>
+            <h3>Money Maker</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
               voluptate distinctio exercitationem? Aliquid eligendi architecto,
@@ -108,59 +145,49 @@
           </div>
         </div>
 
-        <div class="announcements">
-          <div>
-            <h3>Site Maintenance</h3>
-            <p>
-              Libero vero tenetur officiis natus sed esse veritatis minima unde
-              distinctio doloribus, saepe voluptates tempora. Fugit accusantium
-              optio, quia sequi obcaecati aut?
-            </p>
-          </div>
-
-          <div>
-            <h3>Community Share Day</h3>
-            <p>
-              Amet eius vero placeat quis unde quas, est ipsam hic libero iure
-              deserunt impedit mollitia natus molestias modi iste et tenetur
-              reiciendis.
-            </p>
-          </div>
-
-          <div>
-            <h3>Updated Privacy Policy</h3>
-            <p>
-              Quidem sit optio non error. Consequuntur deserunt est error in
-              iste dignissimos adipisci, placeat repellat officia ipsam.
-              Laudantium quis cupiditate deserunt sit.
-            </p>
-          </div>
-        </div>
-        <div class="trending">
-          <div>
-            <svg></svg>
-            <p>@tegan</p>
-            <p>World Peace Builder</p>
-          </div>
-
-          <div>
-            <svg></svg>
-            <p>@morgan</p>
-            <p>Super Cool Project</p>
-          </div>
-
-          <div>
-            <svg></svg>
-            <p>@kendall</p>
-            <p>Life Changing App</p>
-          </div>
-
-          <div>
-            <svg></svg>
-            <p>@alex</p>
-            <p>No Traffic Maker</p>
-          </div>
-        </div>
+        <div class="main-content-right">
+					<div class="announcements">
+							<h4>Site Maintenance</h3>
+							<p>
+								Libero vero tenetur officiis natus sed esse veritatis minima unde
+								distinctio doloribus, saepe...
+							</p>
+							<hr>
+							<h4>Community Share Day</h4>
+							<p>
+								Amet eius vero placeat quis unde quas, est ipsam hic libero iure
+								deserunt impedit mollitia...
+							</p>
+							<hr>
+							<h4>Updated Privacy Policy</h4>
+							<p>
+								Quidem sit optio non error. Consequuntur deserunt est error in
+								iste dignissimos...
+							</p>
+					</div>
+					<div class="trending">
+						<div class="profile">
+							<img src="icons/julius.svg" alt="Julius" class="profile-pic">
+							<p>@julius</p>
+							<p>World Peace Builder</p>
+						</div>
+						<div class="profile">
+							<img src="icons/plato.svg" alt="Plato" class="profile-pic">
+							<p>@plato</p>
+							<p>Super Cool Project</p>
+						</div>
+						<div class="profile">
+							<img src="icons/socrates.svg" alt="Socrates" class="profile-pic">
+							<p>@socrates</p>
+							<p>Life Changing App</p>
+						</div>
+						<div class="profile">
+							<img src="icons/marcus.svg" alt="Marcus" class="profile-pic">
+							<p>@marcus</p>
+							<p>No Traffic Maker</p>
+						</div>
+					</div>
+				</div> 
       </div>
     </div>
   </body>
